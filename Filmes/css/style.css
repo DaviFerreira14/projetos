@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(rgb(0, 195, 255), blue);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filmemostrado {
+    background: white;
+    width: 700px;
+    height: auto;
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.conteudo-filme {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#cartaz img {
+    max-width: 100%;
+    height: auto;
+}
+
+.descricao {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+}
+
+.botoes button {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: darkblue;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
